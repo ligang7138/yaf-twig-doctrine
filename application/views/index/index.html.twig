@@ -1,0 +1,6 @@
+{% extends "layout/layout.html.twig" %}
+
+{% block content %}
+	{{ time | date('Y-m-d H:i:s') }}
+	{{ action }}
+{% endblock  %}
